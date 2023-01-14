@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #f0f2f5;
+}
+
+.hero-sec-container {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-right {
+  position: relative;
+}
+.hero-form {
+  display: flex;
+  /* position: relative; */
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 20rem;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.158);
+}
+.email-input {
+  border: 1px solid rgba(204, 204, 204, 0.829);
+  border-radius: 4px;
+  margin: 0 0 1rem 0;
+  padding: 12px;
+}
+.pass-input {
+  border: 1px solid rgba(204, 204, 204, 0.829);
+  border-radius: 4px;
+  margin: 0 0 1rem 0;
+  padding: 12px;
+}
+.email-input::placeholder {
+  color: rgba(150, 150, 150, 0.897);
+}
+.pass-input::placeholder {
+  color: rgba(150, 150, 150, 0.897);
+}
+.login-btn {
+  background-color: #166fe5;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+}
+.forget-pass {
+  text-decoration: none;
+  color: #166fe5;
+  margin: 0 auto 1rem auto;
+  font-size: 12px;
+}
+.line {
+  width: 90%;
+  margin: 0 auto 1rem auto;
+  color: rgb(255, 255, 255);
+}
+.create-account-btn {
+  background-color: #42b72a;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 14px;
+}
+.create-page {
+  font-size: 10px;
+  margin: 1.5rem auto 0 auto;
+  text-align: center;
+}
+.create-page a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 550;
+}
+.hero-left {
+  position: relative;
+  margin-right: 1rem;
+}
+.logo-container {
+  position: absolute;
+  top: 0px;
+  right: 9.5rem;
+  width: 20rem;
+}
+.hero-txt-container {
+  margin-top: 6rem;
+}
+.hero-txt-container h5 {
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 95%;
+}
